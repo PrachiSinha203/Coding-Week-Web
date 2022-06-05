@@ -1,0 +1,166 @@
+.Intro{
+    background-image: url(https://media.istockphoto.com/photos/abstract-blue-background-minimal-geometric-background-for-use-in-picture-id1221025677?b=1&k=20&m=1221025677&s=170667a&w=0&h=7ifCf2jcgMPJEXQ_1VS09j3VbTq6Yu_lWUAbOnBHkDY=);
+    width: 100vw;
+    min-height: 100px;
+    height: 40vh;
+    margin-left: -8px;
+    margin-top: -10px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: sticky;
+    display: flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: center;
+}
+
+
+.Intro h1{
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    letter-spacing: 0.6px;
+    font-size: 48px;
+    width: 100vw;
+    position: absolute;
+    top:12vh;
+    text-align: center;
+}
+
+.Intro a{
+    color: white;
+    height: 5vh;
+    text-decoration: none;
+}
+
+.Intro a:hover{
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+.Intro .tabs{
+    position: relative;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 0.5px;
+    display: flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+    text-align: center;
+    height: 7vh;
+    justify-content: center;
+}
+
+.Intro .tabs a{
+    height: 10px;
+    margin-left: 7px;
+    margin-right: 7px;
+    margin-top: 10px;
+}
+
+.Intro .icons{
+    position: absolute;
+    display: flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+    text-align: center;
+    height: 7vh;
+    justify-content: center;
+    top: 27vh;
+}
+
+.Intro .icons a{
+    margin-left: 1vw;
+    margin-right: 1vw;
+}
+
+.dp{
+    width: 125px;
+    height: 125px;
+    border: 5px solid white;
+    border-radius: 125px;
+    background-image: url(IMG_20220605_020328.jpg);
+    background-size: contain;
+    position: absolute;
+    top: 34vh;
+}
+.int{
+    font-size: 3.5vh;
+    margin-bottom: 5px;
+    text-align: center;
+    letter-spacing: 0.5px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+h2{
+    position: relative;
+    display: inline-block;
+    color: blue;
+    opacity: 0.8;
+    text-align: center;
+    letter-spacing: 0.5px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 3.5vh;
+    width: 100vw;
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+}
+
+p{
+    margin: 5px;
+    text-align: justify;
+    font-size: 2.7vh;
+    font-family: 'Typo Round', medium;
+    font-weight: 100;
+    width: 100vw;
+}
+
+#Description{
+    position: relative;
+    box-sizing: border-box;
+    padding-top: 2px;
+    top: 100px;
+    height: 32vh;
+    width: 101vw;
+    background-color:rgba(165, 199, 248, 0.356);
+    border-radius: 5px;
+}
+
+#Skills_Hobbies{
+    position: absolute;
+    top: 87vh;
+    background-color:rgba(20, 116, 250, 0.356); 
+    width: 100vw;
+    height: 22vh;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+#Goals{
+    position: absolute;
+    background-color:rgba(165, 199, 248, 0.356);
+    border-radius: 5px;
+    top: 111.5vh;
+    height: 28vh ;
+}
+
+#Contact{
+    position: absolute;
+    top: 141vh;
+    color: white;
+    background-color:rgba(1,41,102,255);
+    width: 101vw;
+    border-radius: 5px;
+    opacity: 1; 
+}
+
+#Contact h2{
+    color: rgb(152, 234, 252);
+
+}
+#Contact h4, #Contact p{
+    display: inline;
+    font-size: 2.6vh;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    line-height: 30px;
+}
+

@@ -1,0 +1,353 @@
+/* search box */
+.Search{
+    display: inline-block;
+    background-color: rgba(217,217,217,255);
+    width: 100vw;
+    height: 40vh;
+    margin: -10px;
+}
+
+input{
+    background-color: rgba(145,145,145,255);
+    border: transparent;
+    border-radius: 1px;
+    width: 28vw;
+    height: 7vh;
+    max-height: 35px;
+    margin-left: 34vw;
+    margin-top: 15vh;
+    padding-left: 1vw;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+input::placeholder{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgba(0,0,0,0.65);
+}
+
+
+
+/* about me */
+a{
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    font-family: cursive;
+    color: black;
+    text-decoration: solid;
+}
+a:hover{
+    color: white;
+    font-weight: bold;
+}
+
+
+
+/* Product listing heading */
+h1{
+    font-weight: 400;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 20px;
+}
+
+
+/* products list */
+.products{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.box{
+    width: 250px;
+    height: 250px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    border: 10px solid rgba(217,217,217,255);
+    padding: 10px;
+    margin: 50px;
+    padding-left: 28px;
+    padding-top: 5px;
+    box-shadow: 2px 2px 10px rgba(10, 15, 20, 0.5);
+    overflow: hidden;
+}
+
+.box a{
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    margin-top: 200px;
+    color: rgba(10, 15, 20, 0.85);
+}
+
+.box:hover{
+    box-shadow: none;
+    transition: ease-in-out 0.15s;
+    border: black solid;
+}
+
+.box span{
+    position: relative;
+    display: inline-block;
+    margin-top: 180px;
+    font-weight: bold;
+    font-size: 18px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+}
+
+.box .thumbnail{
+    position: relative;
+    width: 250px;
+    height: 250px;
+    border-radius: 10px;
+    box-sizing: border-box;
+    text-align: center;
+    padding: 10px;
+    margin-left: -10px;
+    margin-top: -218px;
+    opacity: 0;
+    transition: ease-in-out 0.15s;
+}
+
+.box .thumbnail:hover{
+    background-color: rgba(217, 217, 217) ;
+    opacity: 1;
+    transition: ease-in-out 0.15s;
+}
+
+.box .thumbnail h3{
+    position: relative;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
+    color: rgba(0, 10, 0, 0.8);
+    margin-top: 35px;
+    text-align: center;
+}
+
+.box .thumbnail p{
+    position: relative;
+    margin: 10px;
+    margin-top: 40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 13px;
+    color: rgba(10, 15, 20, 0.65);
+}
+
+#p3 a span, #p10 a span, #p8 a span, #p12 a span, #p18 a span, #p22 a span, #p23 a span, #p28 a span{
+    font-size: 15px;
+}
+
+#p12 a span{
+    margin-left: 95px;
+}
+
+#p13 a span{
+    color: white;
+    font-size: 15px;
+}
+
+#p14 a span, #p20 a span{
+    font-size: 14px;
+}
+
+
+
+/* specific products */
+/* mobiles */
+#p1{
+    background: url(https://dummyjson.com/image/i/products/1/thumbnail.jpg);
+    background-color: rgba(217,217,217,255);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+#p2{
+    background: url(https://dummyjson.com/image/i/products/2/thumbnail.jpg);
+    background-color: rgba(217,217,217,255);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+#p3{
+    background: url(https://dummyjson.com/image/i/products/3/thumbnail.jpg);
+    background-color: rgba(217,217,217,255);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+#p4{
+    background: url(https://dummyjson.com/image/i/products/4/thumbnail.jpg);
+    background-color: rgba(217,217,217,255);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+#p5{
+    background: url(https://dummyjson.com/image/i/products/5/thumbnail.jpg);
+    background-color: rgba(217,217,217,255);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+
+/* laptops */
+#p10{
+    background: url(https://dummyjson.com/image/i/products/10/thumbnail.jpeg);
+    background-color: rgba(217,217,217,255);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+#p9{
+    background: url(https://dummyjson.com/image/i/products/9/thumbnail.jpg);
+    background-color: rgba(217,217,217,255);   
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+#p8{
+    background: url(https://dummyjson.com/image/i/products/8/thumbnail.jpg);
+    background-color: rgba(217,217,217,255);   
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+#p7{
+    background: url(https://dummyjson.com/image/i/products/7/thumbnail.jpg); 
+    background-color: rgba(217,217,217,255);  
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+#p6{
+    background: url(https://dummyjson.com/image/i/products/6/thumbnail.png);   
+    background-color: rgba(217,217,217,255);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+
+/* fragrance */
+#p11{
+    background: url(https://dummyjson.com/image/i/products/11/thumbnail.jpg);   
+    background-color: rgba(217,217,217,255);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+#p12{
+    background: url(https://dummyjson.com/image/i/products/12/thumbnail.jpg);   
+    background-color: rgba(217,217,217,255);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+#p13{
+    background: url(https://dummyjson.com/image/i/products/13/thumbnail.webp);   
+    background-color: rgba(217,217,217,255);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#p14{
+    background: url(https://dummyjson.com/image/i/products/14/thumbnail.jpg);   
+    background-color: rgba(217,217,217,255);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+#p15{
+    background: url(https://dummyjson.com/image/i/products/15/thumbnail.jpg);   
+    background-color: rgba(217,217,217,255);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+
+/* skincare */
+#p16{
+    background: url(https://dummyjson.com/image/i/products/16/thumbnail.jpg);   
+    background-color: rgba(217,217,217,255);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+#p17{
+    background: url(https://dummyjson.com/image/i/products/17/thumbnail.jpg);   
+    background-color: rgba(217,217,217,255);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+#p18{
+    background: url(https://dummyjson.com/image/i/products/18/thumbnail.jpg);   
+    background-color: rgba(217,217,217,255);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+#p19{
+    background: url(https://dummyjson.com/image/i/products/19/thumbnail.jpg);   
+    background-color: rgba(217,217,217,255);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+#p20{
+    background: url(https://dummyjson.com/image/i/products/20/thumbnail.jpg);   
+    background-color: rgba(217,217,217,255);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+/* groceries */
+#p21{
+    background: url(https://dummyjson.com/image/i/products/21/thumbnail.png);   
+    background-color: rgba(217,217,217,255);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+#p22{
+    background: url(https://dummyjson.com/image/i/products/22/thumbnail.jpg);   
+    background-color: rgba(217,217,217,255);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#p23{
+    background: url(https://dummyjson.com/image/i/products/23/thumbnail.jpg);   
+    background-color: rgba(217,217,217,255);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+#p24{
+    background: url(https://dummyjson.com/image/i/products/24/thumbnail.jpg);   
+    background-color: rgba(217,217,217,255);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#p25{
+    background: url(https://dummyjson.com/image/i/products/25/thumbnail.jpg);   
+    background-color: rgba(217,217,217,255);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+
+/* home-decorations */
+#p26{
+    background: url(https://dummyjson.com/image/i/products/26/thumbnail.jpg);   
+    background-color: rgba(217,217,217,255);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+#p27{
+    background: url(https://dummyjson.com/image/i/products/27/thumbnail.webp);   
+    background-color: rgba(217,217,217,255);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+#p28{
+    background: url(https://dummyjson.com/image/i/products/28/thumbnail.jpg);   
+    background-color: rgba(217,217,217,255);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+#p29{
+    background: url(https://dummyjson.com/image/i/products/29/thumbnail.webp);   
+    background-color: rgba(217,217,217,255);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#p30{
+    background: url(https://dummyjson.com/image/i/products/30/thumbnail.jpg);   
+    background-color: rgba(217,217,217,255);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
